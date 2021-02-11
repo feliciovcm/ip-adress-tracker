@@ -1,0 +1,102 @@
+body {
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  z-index: -2;
+}
+
+.form {
+  margin-top: 2%;
+}
+
+.container-fluid {
+  text-align: center;
+  background-image: url(images/pattern-bg.png);
+  color: #fff;
+  padding: 2% 0 10% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.form-control {
+  width: 40%;
+  display: inline-block;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  height: 100%;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: black;
+  border: none;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -4.5px;
+  margin-top: -0.27rem;
+  padding-bottom: 0.7rem;
+  background-image: url(images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  padding: 1.7rem 1.7rem;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.error {
+  color: red;
+}
+
+#mapid {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.position {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+}
+
+.information {
+  background-color: white;
+  position: relative;
+  left: -50%;
+  color: black;
+  border-radius: 1rem;
+  top: 3rem;
+  z-index: 99;
+}
+
+.middle-col {
+  
+  border: 2px solid hsl(0, 0%, 90%);
+  border-image: linear-gradient(
+    to bottom,
+    rgba(108, 219, 141, 0) 20%,
+    hsl(0, 0%, 90%) 20%,
+    hsl(0, 0%, 90%) 80%,
+    rgba(108, 219, 141, 0) 80%
+  );
+  border-image-slice: 1;
+}
+
+.col-md-3 {
+  padding: 3% 4%;
+  text-align: left;
+}
+
+.location-tag {
+  font-size: 13px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 500;
+  text-transform: uppercase;
+}
